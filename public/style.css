@@ -1,0 +1,78 @@
+/* Author: Yordi Muñoz Vazquez */
+/* Subject: Internet Programming - CUCEI / UdeG */
+/* Work 04  Chat con Node JS */
+
+@import url(https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200;1,400;1,500;1,600&display=swap);
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background: #011D3D;
+    background: linear-gradient(#171717, #454140);
+  }
+  
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #f7d9aa;
+    text-align: center;
+    
+  }
+  
+#chat{
+    max-width: 75vh;
+    margin: 30px auto; 
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.05);
+    border-radius: 2px;
+  }
+  
+#chat-window{
+    height: 62vh;
+    overflow: auto;
+    background: #171717;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+#output p{
+    padding: 14px 0px; 
+    margin: 0 10px;
+    border-bottom: 1px solid #d7d6d6;
+    color: #fff;
+  }
+  
+#feedback p{
+    padding: 14px 0px; 
+    margin: 0 20px;
+    color: #fff;
+}
+
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 10px;
+  }
+  
+input {
+    padding: 10px 10px;
+    box-sizing: border-box;
+    background: #141c23;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #141c23;
+    border-bottom: 1px solid #eee;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+  }
+  
+button{
+    background: #f7d9aa;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+  }
